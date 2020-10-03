@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Component renders correctly 1`] = `
+<Container>
+  <List>
+    <DefaultListItem
+      button="Play"
+      onPress={[Function]}
+      text="Let’s play"
+      title="Play & Explore"
+    />
+    <DefaultListItem
+      button="Discover"
+      onPress={[Function]}
+      text="Let’s see what you can do"
+      title="Discover"
+    />
+    <DefaultListItem
+      button="Learn"
+      onPress={[Function]}
+      text="You’ll be a guru in no time"
+      title="Learn"
+    />
+    <DefaultListItem
+      button="Lab"
+      onPress={[Function]}
+      text="Get under the hood"
+      title="Lab"
+    />
+  </List>
+  <BottomNav
+    onHomePress={[Function]}
+    onRatePress={[Function]}
+    onSettingsPress={[Function]}
+  />
+</Container>
+`;

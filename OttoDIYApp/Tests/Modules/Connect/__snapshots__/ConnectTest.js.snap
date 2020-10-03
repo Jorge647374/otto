@@ -1,0 +1,309 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Connect Component renders correctly when bluetooth device is connected 1`] = `
+<Container>
+  <List>
+    <DefaultListItem
+      buttonIcon="bluetooth-b"
+      buttonIconSize={22}
+      key="1"
+      onPress={[Function]}
+      text="Connected, tap to disconnect"
+      title="HC-06"
+    />
+  </List>
+  <Footer
+    style={
+      Object {
+        "paddingTop": 0,
+      }
+    }
+  >
+    <Card
+      button="Done"
+      onPress={[Function]}
+      style={
+        Object {
+          "textView": Object {
+            "marginBottom": 16,
+          },
+        }
+      }
+      text="All hooked up & ready to go!"
+      textAlign="left"
+      theme="light"
+      title="YOU’RE CONNECTED"
+    />
+  </Footer>
+</Container>
+`;
+
+exports[`Connect Component renders correctly when bluetooth is enabled 1`] = `
+<Container>
+  <Footer
+    style={
+      Object {
+        "paddingTop": 0,
+      }
+    }
+  >
+    <Card
+      button="Scan"
+      link="Problems Connecting?"
+      loading={false}
+      onLinkPress={[Function]}
+      onPress={[Function]}
+      style={
+        Object {
+          "textView": Object {
+            "marginBottom": 16,
+          },
+        }
+      }
+      text="Tap on a bluetooth device above to connect or scan to find other devices nearby."
+      textAlign="left"
+      theme="light"
+      title="GET CONNECTED"
+    />
+  </Footer>
+  <ScrollView
+    style={
+      Object {
+        "marginBottom": 210,
+      }
+    }
+  >
+    <List>
+      <DefaultListItem
+        buttonIcon="bluetooth-b"
+        buttonIconSize={22}
+        key="1"
+        onPress={[Function]}
+        text={null}
+        title="HC-06"
+      />
+      <DefaultListItem
+        buttonIcon="bluetooth-b"
+        buttonIconSize={22}
+        key="2"
+        onPress={[Function]}
+        text={null}
+        title="Laptop"
+      />
+    </List>
+  </ScrollView>
+  <Modal
+    navigation={
+      Object {
+        "navigate": [Function],
+      }
+    }
+    onHidePress={[Function]}
+    show={false}
+    template="ProblemsConnecting"
+  />
+</Container>
+`;
+
+exports[`Connect Component renders correctly when bluetooth is not enabled 1`] = `
+<Container>
+  <Footer
+    style={
+      Object {
+        "paddingTop": 0,
+      }
+    }
+  >
+    <Card
+      button="Turn on Bluetooth"
+      link="Problems Connecting?"
+      onLinkPress={[Function]}
+      onPress={[Function]}
+      style={
+        Object {
+          "textView": Object {
+            "marginBottom": 16,
+          },
+        }
+      }
+      text="You need to turn on Bluetooth before connecting"
+      textAlign="left"
+      theme="light"
+      title="BLUETOOTH IS TURNED OFF"
+    />
+  </Footer>
+  <Card
+    image={
+      Object {
+        "process": [Function],
+      }
+    }
+  />
+  <Modal
+    navigation={
+      Object {
+        "navigate": [Function],
+      }
+    }
+    onHidePress={[Function]}
+    show={false}
+    template="ProblemsConnecting"
+  />
+</Container>
+`;
+
+exports[`Connect Component renders correctly when connected to simulator 1`] = `
+<Container>
+  <Footer
+    style={
+      Object {
+        "paddingTop": 0,
+      }
+    }
+  >
+    <Card
+      button="Done"
+      link="Email simulator link"
+      onLinkPress={[Function]}
+      onPress={[Function]}
+      style={
+        Object {
+          "textView": Object {
+            "marginBottom": 16,
+          },
+        }
+      }
+      text="Test instructions"
+      textAlign="left"
+      theme="light"
+      title="YOU\`RE CONNECTED TO THE SIMULATOR"
+    />
+  </Footer>
+  <Card
+    image={
+      Object {
+        "process": [Function],
+      }
+    }
+    title="Good job 👍"
+  />
+</Container>
+`;
+
+exports[`Connect Component renders correctly when first connecting 1`] = `
+<Container>
+  <Card
+    image={
+      Object {
+        "process": [Function],
+      }
+    }
+    link="Is the device you want
+to connect to supported?"
+    onLinkPress={[Function]}
+  />
+  <Modal
+    navigation={
+      Object {
+        "navigate": [Function],
+      }
+    }
+    show={false}
+    template="IsYourDeviceSupported"
+  />
+  <Footer
+    style={
+      Object {
+        "paddingTop": 0,
+      }
+    }
+  >
+    <Card
+      button="Connect Bluetooth Device"
+      link="Connect to the
+Code & Robots Simulator"
+      onLinkPress={[Function]}
+      onPress={[Function]}
+      style={
+        Object {
+          "textView": Object {
+            "marginBottom": 16,
+          },
+        }
+      }
+      text="Connect to a bluetooth device OR to the Code & Robots simulator"
+      textAlign="left"
+      theme="light"
+      title="CHOOSE HOW TO CONNECT"
+    />
+  </Footer>
+</Container>
+`;
+
+exports[`Connect Component renders correctly when scanning 1`] = `
+<Container>
+  <Footer
+    style={
+      Object {
+        "paddingTop": 0,
+      }
+    }
+  >
+    <Card
+      button="Scan"
+      link="Problems Connecting?"
+      loading={true}
+      onLinkPress={[Function]}
+      onPress={[Function]}
+      style={
+        Object {
+          "textView": Object {
+            "marginBottom": 16,
+          },
+        }
+      }
+      text="Scanning for nearby bluetooth devices...
+"
+      textAlign="left"
+      theme="light"
+      title="GET CONNECTED"
+    />
+  </Footer>
+  <ScrollView
+    style={
+      Object {
+        "marginBottom": 210,
+      }
+    }
+  >
+    <List>
+      <DefaultListItem
+        buttonIcon="bluetooth-b"
+        buttonIconSize={22}
+        key="1"
+        onPress={[Function]}
+        text={null}
+        title="HC-06"
+      />
+      <DefaultListItem
+        buttonIcon="bluetooth-b"
+        buttonIconSize={22}
+        key="2"
+        onPress={[Function]}
+        text={null}
+        title="Laptop"
+      />
+    </List>
+  </ScrollView>
+  <Modal
+    navigation={
+      Object {
+        "navigate": [Function],
+      }
+    }
+    onHidePress={[Function]}
+    show={false}
+    template="ProblemsConnecting"
+  />
+</Container>
+`;
